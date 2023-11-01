@@ -1,0 +1,155 @@
+img:hover{
+    width: 400px;
+   opacity: 0.6;
+   border-radius: 20px 20px;
+   
+   
+}
+
+img{
+    width: 400px;
+   border-radius: 20px 20px;
+   border: white solid;
+   position: relative;
+  
+}
+
+#sfondo{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border-radius: 20px 20px;
+}
+
+#pop{
+ position: absolute;
+ top: 345px;
+ left: 260px;
+ background-color: white;
+ border-radius: 50px 50px 50px 50px;
+ width: 50px;
+ height: 50px;
+ font-size: 20px;
+ border: white solid;
+ animation-name: top;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: none;
+}
+
+#ellipis{
+    position: absolute;
+ top: 345px;
+ left: 335px;
+ background-color: white;
+ border-radius: 50px 50px 50px 50px;
+ width: 50px;
+ height: 50px;
+ font-size: 20px;
+ border: white solid;
+ animation-name: top;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: none;
+}
+
+#arrow{
+    position: absolute;
+    top: 343px;
+    left: 52px;
+    background-color: white;
+    border-radius: 40px 40px;
+    width: 103px;
+    height: 60px;
+    font-size: 5px;
+    border: white solid;
+    text-align: left;
+    animation-name: top;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: none;
+
+}
+
+#testo{
+    position: absolute;
+    top: 343px;
+    left: 90px;
+    width: 90px;
+    height: 54px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 40px 40px;
+    border: white solid;
+    text-align: left;
+    animation-name: top;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: none;
+}
+
+#save{
+    position: absolute;
+    bottom: 300px;
+    background-color: red;
+    border: red solid;
+    border-radius: 40px 40px;
+    left: 180px;
+    width: 100px;
+    height: 50px;
+    animation-name: slideInbottom;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+}
+
+h2{
+    color: white;
+    font-size: large;
+    animation-name: slideInbottom;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+}
+
+@keyframes slideInbottom {
+    from{
+        transform: translateY(-100px);
+    }
+
+
+    to{
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes  top {
+    from{
+        transform: translateY(-500px);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+}
